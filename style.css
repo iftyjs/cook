@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.food-list {
+  clear: both;
+  height: 600px;
+}
+
+.food {
+  background: #eee;
+  max-width: 250px;
+  float: left;
+  margin: 10px 30px;
+  border-radius: 5px;
+}
+
+.food img {
+  max-width: 250px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.food p {
+  text-align: center;
+}
+
+.search-box {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.search-box input {
+  border: none;
+  background: #eee;
+  height: 30px;
+  border-radius: 7px;
+  padding: 2px 30px;
+  margin-bottom: 50px;
+}
+
+#search-btn {
+  background: #e76f51;
+  color: #fff;
+  text-transform: uppercase;
+  height: 40px;
+}
+
+#meal-name {
+  width: 250px;
+  height: 36px;
+}
+
+.food-details {
+  max-width: 600px;
+  margin: 0 auto;
+  display: none;
+}
+
+.food-details img {
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+.food-details p {
+  color: #343a40;
+  font-size: 14px;
+  line-height: 18px;
+}
